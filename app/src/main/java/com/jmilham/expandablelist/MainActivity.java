@@ -41,5 +41,20 @@ public class MainActivity extends AppCompatActivity {
             ll.addView(button);
             expand.addLayout(ll);
         }
+        LinearLayout ll = new LinearLayout(this);
+        TextView textView = new TextView(this);
+        textView.setText("Item");
+
+        Button button = new Button(this);
+        button.setText("Don't Click me");
+
+        ll.addView(textView);
+        ll.addView(button);
+        ExpandingList expandingList = new ExpandingList(this);
+        expandingList.addLayout(ll);
+        expandingList.setTitle("anotha one");
+
+        LinearLayout mainLayou = findViewById(R.id.mainLayou);
+        mainLayou.addView(expandingList);
     }
 }
