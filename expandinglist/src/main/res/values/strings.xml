@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">ExpandingList</string>
+    <string name="placeholder_text">Placeholder Text</string>
+    <string name="spinner_to_show_position_of_layout">Spinner to show position of layout</string>
 </resources>
