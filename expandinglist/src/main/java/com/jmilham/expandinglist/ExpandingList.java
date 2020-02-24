@@ -39,10 +39,6 @@ public class ExpandingList extends LinearLayout {
         initView(context);
     }
 
-    public ExpandingList(Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes) {
-        super(context, attrs, defStyleAttr, defStyleRes);
-        initView(context);
-    }
 
     private void initView(Context context) {
         inflate(context, R.layout.expanding_list, this);
